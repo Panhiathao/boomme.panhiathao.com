@@ -2,5 +2,45 @@ body {
     background-color: #c3e0e5;
     color: #41729f;
     text-align: center;
-    padding-top: 5vh;
+    margin: 0;
+    padding: 0;
+ 
+    
+    
+}
+
+header {
+    background-color: green;
+    height: 10vh;
+}
+
+main {
+    background-color: blue;
+    height: 95vh;
+
+}
+
+footer {
+    background-color: pink;
+    width: 100vw;
+    height: 5vh;
+}
+
+section {
+    background-color: purple;
+    border: 1px black solid;
+    width: 100vw;
+    height: 33.33vh;
+
+}
+
+@media (max-width: 480px) {
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        width: 100vw;
+        height: 40vh;
+    }
 }
